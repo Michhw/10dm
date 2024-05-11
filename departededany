@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día de las Madres</title>
+    <style>
+        body {
+            background-color: blue;
+            color: pink;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+       .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            color: white;
+            background-color: pink;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+       .button:hover {
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Feliz Día de las Madres!</h1>
+        <p>Te queremos mucho.</p>
+        <button class="button">Iniciar</button>
+    </div>
+</body>
+</html>
